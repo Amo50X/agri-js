@@ -3,7 +3,7 @@ import "./Projects.css"
 import { motion } from "framer-motion"
 import Weed from "../../pages/Weed"
 import Animal from "../../pages/Animal"
-import maize from "../../pages/maize"
+import Maize from "../../pages/Maize"
 
 const Projects = () => {
   return (
