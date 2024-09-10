@@ -1,0 +1,82 @@
+.tomato-work {
+    color: white;
+    background-color: rgba(42, 42, 42, 0.388);
+    padding: 0 50px;
+}
+
+.tomato-work h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: xx-large;
+}
+
+.tomato-project{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.tomato-project  img{
+    border-radius: 20px;
+    max-width: 500px;
+    height: 500px;
+}
+
+.tomato-project video{
+    border-radius: 20px;
+    max-width: 600px;
+    height: 400px;
+}
+
+.tomato-project input{
+    padding: 2rem;
+    font-size: large;
+}
+
+.tomato-project button {
+    background: #000;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50px;
+    border-style: none;
+    color: rgb(241, 0, 0);
+}
+
+.load-bar{
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(243, 8, 8);
+}
+
+.results {
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px;
+}
+
+.images{
+    padding: 20px;
+}
+
+.images img {
+    
+    border-radius: 20px;
+    max-width: 600px;
+    height: 600px;
+}
+.video-results {
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+
+.video-results video{
+    border-radius: 40px;
+    padding: 1.3rem;
+    width: 600px;
+    height: 600px;
+}
+.info{
+    padding: 0.5rem;
+}

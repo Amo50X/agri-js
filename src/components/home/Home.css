@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.home-text{
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 50px;
+}
+
+.home h1 {
+    font-size: 3rem;
+}

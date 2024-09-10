@@ -1,0 +1,17 @@
+.about{
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+}
+
+.about div {
+    padding: 40px;
+    margin: 2rem;
+    width: 50%;
+    background-color: rgba(240, 248, 255, 0.253);
+}
+
+.text2{
+    transform: translateX(70%);
+    right: 0;
+}

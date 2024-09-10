@@ -1,0 +1,23 @@
+.animal-home{
+    color: white;
+}
+
+.animal-home h1{
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.animal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 4rem;
+}
+
+.animal-info img {
+    border-radius: 30px;
+    width: 600px;
+}
+
