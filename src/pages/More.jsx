@@ -117,7 +117,7 @@ const More = () => {
                 <h2>Oral Disease Diagnosis</h2>
                 <h5>An app that allows patients to do self diagnosis for Oral diseases. By uploading an image and get the  predicted disease with description and suggested treatment.
                 </h5>
-                <Link className="ai-link" to={"https://ai-career-guidances-arupi3ypbkexblqqwx6v3r.streamlit.app/#interview-tips"} target='blank'>Read more</Link>
+                <Link className="ai-link" to={"https://oraldiseasesdiagnosis.streamlit.app/"} target='blank'>Read more</Link>
             </motion.div>
             <motion.div className="ai-card"
                 whileHover={{
