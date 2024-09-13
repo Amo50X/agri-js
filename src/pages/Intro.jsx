@@ -3,6 +3,7 @@ import { motion, useScroll } from 'framer-motion'
 import Home from '../components/home/Home'
 import About from '../components/about/About'
 import Projects from '../components/projects/Projects'
+import bg from "../assets/background.jpg"
 
 
 const Intro = () => {
@@ -14,6 +15,7 @@ const Intro = () => {
         style={{scaleX: scrollYProgress}}
         />
         <motion.div className="bg"
+            style={{backgroundImage: `url(${bg})`}}
             animate={{ zoom: [1, 1.3, 1.3,1]}}
             transition={{ duration: 20,
             repeat: Infinity

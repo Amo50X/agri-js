@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Home from '../maize/home/Home'
 import Work from '../maize/work/Work'
 import './Maize.css'
+import maizebg from '../assets/bg-maize.jpg'
 
 
 const Maize = () => {
@@ -10,7 +11,9 @@ const Maize = () => {
   }, []);
   return (
     <>
-      <div className="bg-maize"/>
+      <div className="bg-maize"
+        style={{backgroundImage: `url(${maizebg})`}}
+      />
       <div className="bg-filter"/>
       <Home/>
       <Work/>

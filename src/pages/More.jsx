@@ -1,11 +1,14 @@
-import './More.css'
-import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
+import './More.css';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import morebg from '../assets/bg-more.jpg'
 
 const More = () => {
   return (
     <>
-        <div className="bg-more"/>
+        <div className="bg-more"
+            style={{backgroundImage: `url(${morebg})`}}
+        />
         <div className="bg-filter"/>
         <h1>ARTIFICIAL INTELLIGENCE</h1>
         <div className="ai-cards">
