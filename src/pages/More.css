@@ -1,53 +1,54 @@
-.projects {
-    background: rgba(0, 0, 0, 0.788);
-    text-align: center;
-    padding: 0px 50px;
-    color: white;
-}
-
-.projects h1 {
-    padding: 1rem;
+.bg-more {
     width: 100%;
-    font-size: 3rem;
+    height: 100vh;
+    background-image: url('./assets/bg-more.jpg');
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
 }
 
-.cards{
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
+}
+
+.ai-cards{
     display: grid;
-    
+    text-align: center;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
     justify-items: center;
-    gap: 30px 0px;
+    gap: 50px 0px;
     margin-top: 1rem;
     height: max-content;
 }
 
-.card {
+.ai-card {
     position: relative;
     background-color: rgba(255, 255, 255, 0.486);
     width: 420px;
-    height: 300px;
+    height: 310px;
     border-radius: 20px;
     overflow: hidden;
-    color: black; 
+    color: black;
 }
 
-.card:hover {
-    box-shadow: 1px 1px 10px  rgb(0, 255, 38);
+.ai-card:hover {
+    box-shadow: 1px 1px 15px  rgb(0, 183, 255);
 
 }
-.card img {
+.ai-card img {
     width: 450px;
     height: 200px;
 }
 
-.card h2 {
+.ai-card h2 {
     padding: 0.2rem;
     font-size: large;
 }
 
 
-.link{
+.ai-link{
     position: absolute;
     bottom: 0.2rem;
     transform: translateX(-50%);
@@ -55,7 +56,7 @@
     
 }
 
-.link:hover{
-    color: rgb(0, 255, 38);
+.ai-link:hover{
+    color: rgb(0, 183, 255);
 
 }

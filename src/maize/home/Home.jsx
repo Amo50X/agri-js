@@ -21,7 +21,7 @@ const Home = () => {
             making it an invaluable tool for enhancing productivity and sustainability 
             in maize cultivation.
             </h3>    
-            <motion.img src="src/assets/maize.jpg" alt="" 
+            <motion.img src="./assets/maize.jpg" alt="" 
                 whileHover={{scale:0.9}}
             />        
         </div>

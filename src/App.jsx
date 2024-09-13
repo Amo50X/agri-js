@@ -6,6 +6,7 @@ import Weed from './pages/Weed'
 import Maize from './pages/Maize'
 import Animal from './pages/Animal'
 import Tomato from './pages/Tomato'
+import More from './pages/More'
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/maize' element={<Maize/>}/>
         <Route path='/animal' element={<Animal/>}/>
         <Route path='/tomato' element={<Tomato/>}/>
+        <Route path='/more' element={<More/>}/>
       </Routes>
       
     </>

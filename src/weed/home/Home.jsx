@@ -14,7 +14,7 @@ const Home = () => {
                 equipment. Additionally, Agremo Weed Dretection analysis is beneficial to the environment since 
                 it lessens the chance of herbicide runoff and minimizes the overapplication of herbicide.
             </h2>    
-            <motion.img src="src/assets/weed.jpg" alt="" 
+            <motion.img src="./assets/weed.jpg" alt="" 
                 whileHover={{scale:0.9}}
             />        
         </div>

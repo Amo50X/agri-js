@@ -31,7 +31,7 @@ const Home = () => {
         </div>
         
 
-        <motion.img src="src/assets/animals.jpg" alt=""
+        <motion.img src="./assets/animals.jpg" alt=""
           whileHover={{ scale: 0.9 }}
         />
       </div>

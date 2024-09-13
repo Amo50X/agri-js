@@ -21,7 +21,7 @@ const Home = () => {
               capabilities, this application is a valuable tool for the entire 
               supply chain in the agricultural industry.
             </h2>    
-            <motion.img src="src/assets/tomato.jpg" alt="" 
+            <motion.img src="./assets/tomato.jpg" alt="" 
                 whileHover={{scale:0.9}}
             />        
         </div>

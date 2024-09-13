@@ -15,9 +15,9 @@ const handleFile = (media, img) => {
 }
 
 const Work = () => {
-  const [media, setMedia] = useState("src/assets/maize.jpg")
-  const [image, setImage] = useState("src/assets/maize.jpg")
-  const [dotImage, setDotImage] = useState("src/assets/maize.jpg")
+  const [media, setMedia] = useState("./assets/maize.jpg")
+  const [image, setImage] = useState("./assets/maize.jpg")
+  const [dotImage, setDotImage] = useState("./assets/maize.jpg")
   const [count, setCount] = useState("0")
   const [videoSrc, setVideoSrc] = useState('');
   const [file, setFile] = useState({})
@@ -50,7 +50,7 @@ const Work = () => {
     // console.log(files)
 
     const Upload = async () => {
-      await fetch("http://127.0.0.1:5001/maize", {
+      await fetch("https://amo50x-agri-hub.hf.space/maize", {
         method: 'POST',
         body: formData,
       })
@@ -74,7 +74,7 @@ const Work = () => {
     }
 
     const video_upload = async () => {
-      await fetch("http://127.0.0.1:5001/maize", {
+      await fetch("https://amo50x-agri-hub.hf.space/maize", {
         method: 'POST',
         body: formData,
       })
