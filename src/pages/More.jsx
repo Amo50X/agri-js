@@ -62,8 +62,9 @@ const More = () => {
                 }}
             >
                 <img src="./assets/gen.jpg" alt="" />
-                <h2>Image Genarator</h2>
+                <h2>FarmExpect</h2>
                 <h5>
+                The AI can help you regarding anything to do with Farming, if you wanna start a business or a Farm
                 </h5>
                 <Link className="ai-link" to={"http://Boiki17.pythonanywhere.com"} target='blank'>Read more</Link>
             </motion.div>
@@ -91,7 +92,42 @@ const More = () => {
                 </h5>
                 <Link className="ai-link" to={"https://medicalrecommendation.streamlit.app/"} target='blank'>Read more</Link>
             </motion.div>
+            
+            <motion.div className="ai-card"
+                whileHover={{
+                    scale: 1.1,
+                }}
+            >
+                <img src="./assets/interview.jpg" alt="" />
+                <h2>AI-powered career guidance system</h2>
+                <h5>The system guides users about the career choices and allows them to prepare for interview questions.
+                </h5>
+                <Link className="ai-link" to={"https://ai-career-guidances-arupi3ypbkexblqqwx6v3r.streamlit.app/#interview-tips"} target='blank'>Read more</Link>
+            </motion.div>
 
+            <motion.div className="ai-card"
+                whileHover={{
+                    scale: 1.1,
+                }}
+            >
+                <img src="./assets/oral.jpg" alt="" />
+                <h2>Oral Disease Diagnosis</h2>
+                <h5>An app that allows patients to do self diagnosis for Oral diseases. By uploading an image and get the  predicted disease with description and suggested treatment.
+                </h5>
+                <Link className="ai-link" to={"https://ai-career-guidances-arupi3ypbkexblqqwx6v3r.streamlit.app/#interview-tips"} target='blank'>Read more</Link>
+            </motion.div>
+            <motion.div className="ai-card"
+                whileHover={{
+                    scale: 1.1,
+                }}
+            >
+                <img src="./assets/doc.jpg" alt="" />
+                <h2>CHAT WITH PDF</h2>
+                <h5>
+                This App allows user to upload their pdf and ask the app based on the document and if the answer is not available on the document it goes to the internet look for it and return to user 
+                </h5>
+                <Link className="ai-link" to={"https://finalchat-with-pdf-atjlnxqxu4kvees6oj3au7.streamlit.app/"} target='blank'>Read more</Link>
+            </motion.div>
         </div>
     </>
   )

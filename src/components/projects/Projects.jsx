@@ -59,7 +59,7 @@ const Projects = () => {
             >
                 <img src="./assets/stock.jpg" alt=""  />
                 <h2>Health Livestock Monitor</h2>
-                <h5>Here you will explore more of TUT 4IR Projects</h5>
+                <h5>The App is AI powered tool designed to track, analyze and enhance the health and well being of livestock through predictive insights and personalized care recommendations.</h5>
                 <Link className="link" to={"https://jvfgzewway8wgtaetwfgth.streamlit.app"} target="blank">Read more</Link>
             </motion.div>
 

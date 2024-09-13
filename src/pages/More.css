@@ -21,6 +21,7 @@ h1 {
     gap: 50px 0px;
     margin-top: 1rem;
     height: max-content;
+    padding-bottom: 30px;
 }
 
 .ai-card {
